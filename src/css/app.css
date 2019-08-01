@@ -1,0 +1,25 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+    background: #f1f1f1;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 770px;
+    }
+}
+
+.headline {
+    text-align: center;
+    color:#357ebd;
+    font-family: Georgia,serif;
+}
+
+.card {
+    background: #fff;
+}
